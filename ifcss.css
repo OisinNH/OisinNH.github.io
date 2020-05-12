@@ -22,7 +22,11 @@ h1{
 	margin-right:right;
 	width:100%;
 }
-div {
+poem {
 	border-top: 5px dotted black;
 	border-bottom: 5px dotted black;
+}
+about {
+	 margin-left:auto;
+	 margin-right:auto;
 }
