@@ -1,13 +1,15 @@
-imgp {
+img.imgq {
  width:20%;
  margin-left: auto;
  margin-right:auto;
- margin-bottom:30px;
- border: 30px solid white;
  
 }
-imgq {
-	width:20;
+img.imgp {
+	width:20%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:30px;
+	border: 30px solid white;
 }
 body{
 	font-family:calibri;
