@@ -1,10 +1,13 @@
-img {
+imgp {
  width:20%;
  margin-left: auto;
  margin-right:auto;
  margin-bottom:30px;
  border: 30px solid white;
  
+}
+imgq {
+	width:20;
 }
 body{
 	font-family:calibri;
