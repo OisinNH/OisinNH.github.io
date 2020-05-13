@@ -7,9 +7,53 @@
 <p>
 <h1> Which Countries Are These? </h1>
 <img src = "https://bfmbrainfall.files.wordpress.com/2016/12/france-outline.jpg?w=340" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "fra"><button id = "1">Enter</button><br>
+<input id = "fra"><button id = "b1">Enter</button><div id = "a1">...</div><br>
+<style>
+.wrong {
+	color: red;
+	}
+.right {
+	color: green;
+	}
+</style>
+<script>
+function one() {
+	a1.textContent = "wrong";
+	a1.classList.add('wrong');
+	if(fra.value == "France") {
+		a1.textContent = "correct";
+		a1.classList.add('right');
+		}
+}
+b1.onclick = one;
+</script>
 </p><p>
 <img src = "https://bfmbrainfall.files.wordpress.com/2016/12/iceland.jpg?w=473" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "gre"><button id = "2">Enter</button><br>
+<input id = "gre"><button id = "b2">Enter</button><div id = "a2">...</div><br>
+<script>
+function two() {
+	a2.textContent = "wrong";
+	a2.classList.add('wrong');
+	if(gre.value == "Iceland") {
+		a2.textContent = "correct";
+		a2.classList.add('right');
+		}
+}
+b2.onclick = two;
+</script>
+<img src = "oisinnh.github.io/hungary.png" alt = "this is a quiz I won't give you the answer here"><br>
+<input id = "hun"><button id = "b3">Enter</button><div id = "a3">...</div><br>
+<script>
+function three() {
+	a3.textContent = "wrong";
+	a3.classList.add('wrong');
+	if(hun.value == "Hungary") {
+		a3.textContent = "correct";
+		a3.classList.add('right');
+		}
+}
+b3.onclick = three;
+</script>
+</p><p>
 </p>
 </body>
