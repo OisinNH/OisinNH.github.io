@@ -8,7 +8,7 @@
 <div class=flag></div>
 <p>
 <h1> Which Buildings Are These? </h1>
-<h3> (Capitalise each word in the answers and write in French)</h3>
+<h3> (Write in French)</h3>
 <img class = "imgq" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Arc_de_Triomphe%2C_Paris_5_February_2019.jpg/1024px-Arc_de_Triomphe%2C_Paris_5_February_2019.jpg" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
 <input id = "fra"><button id = "b1">Enter</button><div id = "a1">...</div></p><p id = "test"></p><p></p><p id = "test1"></p><p><br>
 <style>
@@ -25,13 +25,13 @@ var done1 = 0;
 function one() {
 	a1.textContent = "wrong";
 	a1.classList.add('wrong');
-	if(fra.value == "L'Arc De Triomphe" && done1 == 0){
+	if(fra.value.toLowerCase() == "l'arc de triomphe" && done1 == 0){
 		a1.textContent = "correct";
 		a1.classList.add('right');
 		done1 = 1;
 		total = total+1;
 	}
-	if(fra.value == "L'Arc De Triomphe" && done1 == 1){
+	if(fra.value.toLowerCase() == "l'Arc de triomphe" && done1 == 1){
 		a1.textContent = "correct";
 		a1.classList.add('right');
 	}
@@ -69,13 +69,13 @@ var done3 = 0;
 function three() {
 	a3.textContent = "wrong";
 	a3.classList.add('wrong');
-	if(hun.value == "Galerie Des Glaces" && done3 == 0){
+	if(hun.value.toLowerCase() == "galerie des glaces" && done3 == 0){
 		a3.textContent = "correct";
 		a3.classList.add('right');
 		done3 = 1;
 		total = total+1;
 	}
-	if(hun.value == "Galerie Des Glaces" && done3 == 1){
+	if(hun.value.toLowerCase() == "galerie des glaces" && done3 == 1){
 		a3.textContent = "correct";
 		a3.classList.add('right');
 	}
