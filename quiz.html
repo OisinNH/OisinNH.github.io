@@ -1,227 +1,137 @@
 <!Doctype HTML>
+<html lang="en">
+
 <head>
-<title> Quiz </title>
-<link rel="stylesheet" href="ifcss.css">
-</head>
+    <title> Quiz </title>
+    <link rel="stylesheet" href="ifcss.css">
+    <html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="ifcss.css">
+        <link rel="icon" type="image/png" href="quiz_favicon.png" />
+        <script type="text/javascript" src="quiz.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title> Quiz </title>
+    </head>
+
 <body>
-<p>
-<h1> Which Countries Are These? </h1>
-<img class = "imgq" src = "https://bfmbrainfall.files.wordpress.com/2016/12/france-outline.jpg?w=340" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "fra"><button id = "b1">Enter</button><div id = "a1">...</div></p><p id = "test"></p><p></p><p id = "test1"></p><p><br>
-<style>
-.wrong {
-	color: red;
-	}
-.right {
-	color: green;
-	}
-</style>
-<script>
-var total = 0;
-var done1 = 0;
-function one() {
-	a1.textContent = "wrong";
-	a1.classList.add('wrong');
-	if(fra.value.toLowerCase() == "france" && done1 == 0){
-		a1.textContent = "correct";
-		a1.classList.add('right');
-		done1 = 1;
-		total = total+1;
-	}
-	if(fra.value.toLowerCase() == "france" && done1 == 1){
-		a1.textContent = "correct";
-		a1.classList.add('right');
-	}
-}
-b1.onclick = one;
-</script>
-<img class = "imgq" src = "https://bfmbrainfall.files.wordpress.com/2016/12/iceland.jpg?w=473" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "gre"><button id = "b2">Enter</button><div id = "a2">...</div><br>
-<script>
-var done2 = 0;
-function two() {
-	a2.textContent = "wrong";
-	a2.classList.add('wrong');
-	if(gre.value.toLowerCase() == "iceland" && done2 == 0){
-		a2.textContent = "correct";
-		a2.classList.add('right');
-		done2 = 1;
-		total = total+1;
-	}
-	if(gre.value.toLowerCase() == "iceland" && done2 == 1){
-		a2.textContent = "correct";
-		a2.classList.add('right');
-	}
-}
-b2.onclick = two;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/hungary.png" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "hun"><button id = "b3">Enter</button><div id = "a3">...</div><br>
-<script>
-var done3 = 0;
-function three() {
-	a3.textContent = "wrong";
-	a3.classList.add('wrong');
-	if(hun.value.toLowerCase() == "hungary" && done3 == 0){
-		a3.textContent = "correct";
-		a3.classList.add('right');
-		done3 = 1;
-		total = total+1;
-	}
-	if(hun.value.toLowerCase() == "hungary" && done3 == 1){
-		a3.textContent = "correct";
-		a3.classList.add('right');
-	}
-}
-b3.onclick = three;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/grenada.png" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "gra"><button id = "b4">Enter</button><div id = "a4">...</div><br>
-<script>
-var done4 = 0;
-function four() {
-	a4.textContent = "wrong";
-	a4.classList.add('wrong');
-	if(gra.value.toLowerCase() == "granada" && done4 == 0){
-		a4.textContent = "correct";
-		a4.classList.add('right');
-		done4 = 1;
-		total = total+1;
-	}
-	if(gra.value.toLowerCase() == "granada" && done4 == 1){
-		a4.textContent = "correct";
-		a4.classList.add('right');
-	}
-}
-b4.onclick = four;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/bohemia.png" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "boh"><button id = "b5">Enter</button><div id = "a5">...</div><br>
-<script>
-var done5 = 0;
-function five() {
-	a5.textContent = "wrong";
-	a5.classList.add('wrong');
-	if(boh.value.toLowerCase() == "bohemia" && done5 == 0){
-		a5.textContent = "correct";
-		a5.classList.add('right');
-		done5 = 1;
-		total = total+1;
-	}
-	if(boh.value.toLowerCase() == "bohemia" && done5 == 1){
-		a5.textContent = "correct";
-		a5.classList.add('right');
-	}
-b5.onclick = five;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/maldives.jpg" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "mal"><button id = "b6">Enter</button><div id = "a6">...</div><br>
-<script>
-done6 = 0;
-function six() {
-	a6.textContent = "wrong";
-	a6.classList.add('wrong');
-	if(mal.value.toLowerCase() == "maldives" && done6 == 0){
-		a6.textContent = "correct";
-		a6.classList.add('right');
-		done6 = 1;
-		total = total+1;
-	}
-	if(mal.value.toLowerCase() == "maldives" && done6 == 1){
-		a6.textContent = "correct";
-		a6.classList.add('right');
-	}
-}
-b6.onclick = six;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/peru.png" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "per"><button id = "b7">Enter</button><div id = "a7">...</div><br>
-<script>
-var done7 = 0;
-function seven() {
-	a7.textContent = "wrong";
-	a7.classList.add('wrong');
-	if(per.value.toLowerCase() == "peru" && done7 == 0){
-		a7.textContent = "correct";
-		a7.classList.add('right');
-		done7 = 1;
-		total = total+1;
-	}
-	if(per.value.toLowerCase() == "peru" && done7 == 1){
-		a7.textContent = "correct";
-		a7.classList.add('right');
-	}
-}
-b7.onclick = seven;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/Aragon.png" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "ara"><button id = "b8">Enter</button><div id = "a8">...</div><br>
-<script>
-var done8 = 0;
-function eight() {
-	a8.textContent = "wrong";
-	a8.classList.add('wrong');
-	if(ara.value.toLowerCase() == "aragon" && done8 == 0){
-		a8.textContent = "correct";
-		a8.classList.add('right');
-		done1 = 1;
-		total = total+1;
-	}
-	if(ara.value.toLowerCase() == "aragon" && done8 == 1){
-		a8.textContent = "correct";
-		a8.classList.add('right');
-	}
-}
-b8.onclick = eight;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/sm.gif" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "sm"><button id = "b9">Enter</button><div id = "a9">...</div><br>
-<script>
-var done9 = 0;
-function nine() {
-	a9.textContent = "wrong";
-	a9.classList.add('wrong');
-	if(sm.value.toLowerCase() == "san marino" && done9 == 0){
-		a9.textContent = "correct";
-		a9.classList.add('right');
-		done9 = 1;
-		total = total+1;
-	}
-	if(sm.value.toLowerCase() == "san marino" && done9 == 1){
-		a2.textContent = "correct";
-		a2.classList.add('right');
-	}
-}
-b9.onclick = nine;
-</script>
-<img class = "imgq" src = "https://oisinnh.github.io/bel.gif" class = "imgq" alt = "this is a quiz I won't give you the answer here"><br>
-<input id = "bel"><button id = "b10">Enter</button><div id = "a10">...</div><br>
-<script>
-var done10 = 0;
-function ten() {
-	a10.textContent = "wrong";
-	a10.classList.add('wrong');
-	if(bel.value.toLowerCase() == "belize" && done10 == 0){
-		a10.textContent = "correct";
-		a10.classList.add('right');
-		done1 = 1;
-		total = total+1;
-	}
-	if(bel.value.toLowerCase() == "belize" && done10 == 1){
-		a10.textContent = "correct";
-		a10.classList.add('right');
-	}
-}
-b10.onclick = ten;
-</script>
-<button id="tot">Result</button>
-<script>
-function totfun(){
-	tot.textContent = total;
-}
-tot.onclick = totfun;
-</script>
-</p><p>
-<a href = "https://oisinnh.github.io/"> Home </a>
-</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-sm-center">Country Outline Quiz</h1>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/Q1.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_1" onclick="q_one()">Check Answer 1</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_1">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/Q2.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_2" onclick="q_two()">Check Answer 2</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_2">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/Q3.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_3" onclick="q_three()">Check Answer 3</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_3">
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/Q4.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_4" onclick="q_four()">Check Answer 4</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/Q.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_5" onclick="q_five()">Check Answer 5</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_5">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/6.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_6" onclick="q_six()">Check Answer 6</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_6">
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/7.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_7" onclick="q_seven()">Check Answer 7</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_7">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/8.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_8" onclick="q_eight()">Check Answer 8</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_8">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="https://oisinnh.github.io/9.png"><br>
+                <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-primary" type="button" id="answer_9" onclick="q_nine()">Check Answer 9</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_9">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" id="button_total" onclick="q_total()">See Total</button>
+                    <button type="button" class="btn btn-outline-dark" onclick="button_home()">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
+</html>

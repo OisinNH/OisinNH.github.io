@@ -1,37 +1,9 @@
-img.imgq {
- width:20%;
- margin-left: auto;
- margin-right:auto;
- 
-}
-img.imgp {
-	width:20%;
-	margin-left: auto;
-	margin-right:auto;
-	margin-bottom:30px;
-	border: 30px solid white;
-}
-body{
-	font-family:calibri;
-	background-color: rgb(235,189,145);
-	text-align: center;
+html body{
+	background-color: rgba(235,189,145, 1.00);
 
+html {
+  height: 100%;
 }
-p{
-	margin-left:auto;
-	margin-right:right;
-	width:auto;
-}
-h1{
-	margin-left:auto;
-	margin-right:right;
-	width:100%;
-}
-poem {
-	border-top: 5px dotted black;
-	border-bottom: 5px dotted black;
-}
-about {
-	 margin-left:auto;
-	 margin-right:auto;
+body {
+  min-height: 100%;
 }
