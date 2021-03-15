@@ -167,5 +167,11 @@ function q_total() {
 }
 
 function button_home() {
-    window.open("index.html", "_self")
+    window.open("index.html", "_blank")
+}
+function button_project_0() {
+  window.open("https://github.com/OisinNH/Danger-Dungeon/archive/main.zip", "_0")
+}
+function button_project_1() {
+  window.open("https://github.com/OisinNH/Danger-Dungeon/blob/main/main.py", "_0")
 }
