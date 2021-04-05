@@ -1,2 +1,4 @@
-layout:none
-permalink: .well-known/.well-known/matrix/server
+---
+layout: none
+permalink: .well-known/keybase.txt
+---
