@@ -1,4 +1,4 @@
 ---
 layout: none
-permalink: .well-known/keybase.txt
+permalink: .well-known/matrix/server.json
 ---
