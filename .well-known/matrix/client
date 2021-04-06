@@ -1,0 +1,228 @@
+﻿<html><head><style data-merge-styles="true" data-savepage-sheetrules="">@keyframes editorbx-css-0 { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes editorbx-css-1 { 
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+@keyframes editorbx-css-2 { 
+  0% { transform: translate3d(-10px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-3 { 
+  0% { transform: translate3d(-20px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-4 { 
+  0% { transform: translate3d(-40px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-5 { 
+  0% { transform: translate3d(-400px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-6 { 
+  0% { transform: translate3d(10px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-7 { 
+  0% { transform: translate3d(20px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-8 { 
+  0% { transform: translate3d(40px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-9 { 
+  0% { transform: translate3d(400px, 0px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-10 { 
+  0% { transform: translate3d(0px, 10px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-11 { 
+  0% { transform: translate3d(0px, 20px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-12 { 
+  0% { transform: translate3d(0px, -10px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-13 { 
+  0% { transform: translate3d(0px, -20px, 0px); pointer-events: none; }
+  100% { transform: translate3d(0px, 0px, 0px); pointer-events: auto; }
+}
+@keyframes editorbx-css-14 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(10px, 0px, 0px); }
+}
+@keyframes editorbx-css-15 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(20px, 0px, 0px); }
+}
+@keyframes editorbx-css-16 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(40px, 0px, 0px); }
+}
+@keyframes editorbx-css-17 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(400px, 0px, 0px); }
+}
+@keyframes editorbx-css-18 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-10px, 0px, 0px); }
+}
+@keyframes editorbx-css-19 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-20px, 0px, 0px); }
+}
+@keyframes editorbx-css-20 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-40px, 0px, 0px); }
+}
+@keyframes editorbx-css-21 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-400px, 0px, 0px); }
+}
+@keyframes editorbx-css-22 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, -10px, 0px); }
+}
+@keyframes editorbx-css-23 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, -20px, 0px); }
+}
+@keyframes editorbx-css-24 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, 10px, 0px); }
+}
+@keyframes editorbx-css-25 { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(0px, 20px, 0px); }
+}
+@keyframes editorbx-css-26 { 
+  0% { transform: scale3d(0.98, 0.98, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+@keyframes editorbx-css-27 { 
+  0% { transform: scale3d(1, 1, 1); }
+  100% { transform: scale3d(0.98, 0.98, 1); }
+}
+@keyframes editorbx-css-28 { 
+  0% { transform: scale3d(1.03, 1.03, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+@keyframes editorbx-css-29 { 
+  0% { transform: scale3d(1, 1, 1); }
+  100% { transform: scale3d(1.03, 1.03, 1); }
+}
+@keyframes editorbx-css-30 { 
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(90deg); }
+}
+@keyframes editorbx-css-31 { 
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(-90deg); }
+}
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Arabic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-arabic/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Cyrillic)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-cyrillic/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (East European)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (East European)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (East European)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (East European)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (East European)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-easteuropean/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Greek)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Greek)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Greek)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Greek)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Greek)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-greek/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Hebrew)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-hebrew/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Vietnamese)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-vietnamese/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe UI Light"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe UI SemiLight"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe UI"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe UI SemiBold"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (West European)"; src: local("Segoe UI Bold"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/selawik/selawik-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Armenian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-armenian/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-light.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semilight.woff*/ url() format("woff"); font-weight: 300; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-regular.woff*/ url() format("woff"); font-weight: 400; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-semibold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Segoe UI Web (Georgian)"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-georgian/segoeui-bold.woff*/ url() format("woff"); font-weight: 700; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-semilight.woff*/ url() format("woff"); font-weight: 100; font-style: normal; /*savepage-font-display=swap*/ }
+@font-face { font-family: "Leelawadee UI Web"; src: /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff2*/ url() format("woff2"), /*savepage-url=https://static2.sharepointonline.com/files/fabric/assets/fonts/leelawadeeui-thai/leelawadeeui-bold.woff*/ url() format("woff"); font-weight: 600; font-style: normal; /*savepage-font-display=swap*/ }
+.editorbx-css-32 { overflow: hidden !important; }
+.editorbx-css-33 { animation-name: editorbx-css-0, editorbx-css-10; animation-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1); animation-fill-mode: both; }
+.editorbx-css-34 { animation-name: editorbx-css-0, editorbx-css-12; animation-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1); animation-fill-mode: both; }
+.editorbx-css-35 { animation-name: editorbx-css-0, editorbx-css-6; animation-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1); animation-fill-mode: both; }
+.editorbx-css-36 { animation-name: editorbx-css-0, editorbx-css-2; animation-duration: 0.367s; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1); animation-fill-mode: both; }
+.editorbx-root-37 { display: inline-block; }
+.editorbx-placeholder-38 { width: 1em; }
+.editorbx-image-39 { overflow: hidden; }
+</style>
+<style id="savepage-cssvariables">
+  :root {
+  }
+</style>
+<script id="savepage-shadowloader" type="application/javascript">
+  "use strict";
+  window.addEventListener("DOMContentLoaded",
+  function(event) {
+    savepage_ShadowLoader(5);
+  },false);
+  function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);function createShadowDOMs(a,b){var i;if(b.localName=="iframe"||b.localName=="frame"){if(a<c){try{if(b.contentDocument.documentElement!=null){createShadowDOMs(a+1,b.contentDocument.documentElement)}}catch(e){}}}else{if(b.children.length>=1&&b.children[0].localName=="template"&&b.children[0].hasAttribute("data-savepage-shadowroot")){b.attachShadow({mode:"open"}).appendChild(b.children[0].content);b.removeChild(b.children[0]);for(i=0;i<b.shadowRoot.children.length;i++)if(b.shadowRoot.children[i]!=null)createShadowDOMs(a,b.shadowRoot.children[i])}for(i=0;i<b.children.length;i++)if(b.children[i]!=null)createShadowDOMs(a,b.children[i])}}}
+</script>
+<meta name="savepage-url" content="https://server.oisin.uk/.well-known/matrix/client">
+<meta name="savepage-title" content="">
+<meta name="savepage-from" content="https://server.oisin.uk/.well-known/matrix/client">
+<meta name="savepage-date" content="Tue Apr 06 2021 13:38:16 GMT+0100 (British Summer Time)">
+<meta name="savepage-state" content="Standard Items; Retain cross-origin frames; Merge CSS images; Remove unsaved URLs; Load lazy images in existing content; Max frame depth = 5; Max resource size = 50MB; Max resource time = 10s;">
+<meta name="savepage-version" content="25.5">
+<meta name="savepage-comments" content="">
+  </head><body style=""><pre style="word-wrap: break-word; white-space: pre-wrap;">{
+	"m.homeserver": {
+		"base_url": "https://server.oisin.uk"
+	}
+	,
+	"io.element.e2ee": {
+		"default": true,
+		"secure_backup_required": false,
+		"secure_backup_setup_methods": []
+	},
+	"im.vector.riot.e2ee": {
+		"default": true
+	}
+}
+</pre></body><editor-card style="position:absolute;top:0px;left:0px;z-index:auto;display: block !important"><div dir="ltr" style="all: initial;"><div style="color: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-variation-settings: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-size: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; offset: initial; opacity: initial; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: absolute; quotes: initial; r: initial; resize: initial; ruby-position: initial; rx: initial; ry: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: initial; -webkit-app-region: initial; border-spacing: initial; -webkit-border-image: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-hyphenate-character: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-perspective-origin-x: initial; -webkit-perspective-origin-y: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-emphasis: initial; -webkit-text-emphasis-position: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-transform-origin-x: initial; -webkit-transform-origin-y: initial; -webkit-transform-origin-z: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"><link rel="stylesheet" href="chrome-extension://hokifickgkhplphjiodbggjmoafhignh/fonts/fabric-icons.css"><div style="all: initial;"><template data-savepage-shadowroot=""><div role="status" aria-live="polite" id="ms-squiggle-tooltip" style="width: 95vw; overflow-x: hidden;"></div></template></div></div></div></editor-card></html>
