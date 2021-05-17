@@ -167,7 +167,7 @@ function q_total() {
 }
 
 function button_home() {
-    window.open("index.html", "_blank")
+    window.open("index.html", "_self")
 }
 function button_project_0() {
   window.open("https://github.com/OisinNH/Danger-Dungeon/archive/main.zip", "_0")
