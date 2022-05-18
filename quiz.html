@@ -2,145 +2,139 @@
 <html lang="en">
 
 <head>
-    <title> Quiz </title>
-    <link rel="stylesheet" href="ifcss.css">
-    <html lang="en">
+  <title> Quiz </title>
+  <link rel="stylesheet" href="ifcss.css">
+  <link rel="icon" type="image/png" href="quiz_favicon.png" />
+  <script type="text/javascript" src="quiz.js"></script>
 
-    <head>
-        <link rel="stylesheet" href="ifcss.css">
-        <link rel="icon" type="image/png" href="quiz_favicon.png" />
-        <script type="text/javascript" src="quiz.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-        <title> Quiz </title>
-    </head>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="text-sm-center">Country Outline Quiz</h1>
-            </div>
-        </div>
-        <div class="row align-items-end">
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q1.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_1" onclick="q_one()">Check Answer 1</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_1" onkeydown = "if (event.keyCode == 13)
-                        answer_1.click()">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q2.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_2" onclick="q_two()">Check Answer 2</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_2" onkeydown = "if (event.keyCode == 13)
-                        answer_2.click()">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q3.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_3" onclick="q_three()">Check Answer 3</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_3" onkeydown = "if (event.keyCode == 13)
-                        answer_3.click()">
-                </div>
-            </div>
-        </div>
-        <div class="row align-items-end">
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q4.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_4" onclick="q_four()">Check Answer 4</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_4" onkeydown = "if (event.keyCode == 13)
-                        answer_4.click()">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q5.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_5" onclick="q_five()">Check Answer 5</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_5" onkeydown = "if (event.keyCode == 13)
-                        answer_5.click()">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q6.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_6" onclick="q_six()">Check Answer 6</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_6" onkeydown = "if (event.keyCode == 13)
-                        answer_6.click()">
-                </div>
-            </div>
-        </div>
-        <div class="row align-items-end">
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q7.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_7" onclick="q_seven()">Check Answer 7</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_7" onkeydown = "if (event.keyCode == 13)
-                        answer_7.click()">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q8.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_8" onclick="q_eight()">Check Answer 8</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_8" onkeydown = "if (event.keyCode == 13)
-                        answer_8.click()">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="https://oisinnh.github.io/Q9.png"><br>
-                <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary" type="button" id="answer_9" onclick="q_nine()">Check Answer 9</button>
-                    </div>
-                    <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_9" onkeydown = "if (event.keyCode == 13)
-                        answer_9.click()">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="btn-group p-3">
-                    <button type="button" class="btn btn-outline-primary" id="button_total" onclick="q_total()">See Total</button>
-                    <button type="button" class="btn btn-outline-dark" onclick="button_home()">Home</button>
-                </div>
-            </div>
-        </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-sm-center">Country Outline Quiz</h1>
+      </div>
     </div>
+    <div class="row align-items-end">
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q1.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_1" onclick="q_one()">Check Answer 1</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_1" onkeydown="if (event.keyCode == 13)
+                        answer_1.click()">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q2.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_2" onclick="q_two()">Check Answer 2</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_2" onkeydown="if (event.keyCode == 13)
+                        answer_2.click()">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q3.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_3" onclick="q_three()">Check Answer 3</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_3" onkeydown="if (event.keyCode == 13)
+                        answer_3.click()">
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-end">
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q4.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_4" onclick="q_four()">Check Answer 4</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_4" onkeydown="if (event.keyCode == 13)
+                        answer_4.click()">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q5.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_5" onclick="q_five()">Check Answer 5</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_5" onkeydown="if (event.keyCode == 13)
+                        answer_5.click()">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q6.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_6" onclick="q_six()">Check Answer 6</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_6" onkeydown="if (event.keyCode == 13)
+                        answer_6.click()">
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-end">
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q7.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_7" onclick="q_seven()">Check Answer 7</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_7" onkeydown="if (event.keyCode == 13)
+                        answer_7.click()">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q8.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_8" onclick="q_eight()">Check Answer 8</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_8" onkeydown="if (event.keyCode == 13)
+                        answer_8.click()">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="https://oisinnh.github.io/Q9.png"><br>
+        <div class="input-group mb-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-primary" type="button" id="answer_9" onclick="q_nine()">Check Answer 9</button>
+          </div>
+          <input type="text" class="form-control" placeholder="e.g. 'Spain'" id="input_9" onkeydown="if (event.keyCode == 13)
+                        answer_9.click()">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="btn-group p-3">
+          <button type="button" class="btn btn-outline-primary" id="button_total" onclick="q_total()">See Total</button>
+          <button type="button" class="btn btn-outline-dark" onclick="button_home()">Home</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

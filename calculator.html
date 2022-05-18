@@ -1,0 +1,116 @@
+<!Doctype HTML>
+<html lang="en">
+
+<head>
+  <title> Simple Calculator </title>
+  <link rel="stylesheet" href="ifcss.css">
+  <link rel="icon" type="image/png" href="calculator_favicon.png" />
+  <script type="text/javascript" src="quiz.js"></script>
+  <script type="text/javascript" src="calculator.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+</head>
+
+<body>
+  <div class="conatiner-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-sm-center">Calculator</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col-2">
+        <div class="input-group flex-nowrap">
+          <span class="input-group-text" id="num1add">Number 1</span>
+          <input type="text" class="form-control" placeholder="e.g. 6" aria-label="Number1" aria-describedby="Number1" id="num1input">
+        </div>
+      </div>
+      <div class="col-2">
+        <button class="btn btn-outline-primary" type="button" id="add" onclick="replace_add()">+</button>
+      </div>
+      <div class="col-2">
+        <div class="input-group mb-3 flex-nowrap">
+          <span class="input-group-text" id="Answer">Answer</span>
+          <input type="text" class="form-control" placeholder="e.g. 21" aria-label="Answer" aria-describedby="Answer" id ="answer_input">
+        </div>
+      </div>
+      <div class="col-2">
+        <button class="btn btn-primary" type="button" id="correct">Total Correct</button>
+      </div>
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+      <div class="input-group mb-3 flex-nowrap">
+        <span class="input-group-text" id="num2add">Number 2</span>
+        <input type="text" class="form-control" placeholder="e.g. 6" aria-label="Number2" aria-describedby="Number2" id="num2input">
+      </div>
+    </div>
+    <div class="col-2">
+      <button class="btn btn-outline-primary" type="button" id="minus" onclick="replace_minus()">-</button>
+    </div>
+    <div class="col-2">
+      <button class="btn btn-outline-primary" type="button" id="submit" onclick="submit_answer()">Submit</button>
+    </div>
+    <div class="col-2">
+      <button class="btn btn-primary" type="button" id="incorrect">Total Incorrect</button>
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+      <button class="btn mb-3 btn-outline-primary" type="button" id="multiply" onclick="replace_multiply()">x</button>
+    </div>
+    <div class="col-2">
+      <button class="btn btn-primary" type="button" id="correct_answer">Correct Answer</button>
+    </div>
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+      <button class="btn btn-outline-primary" type="button" id="divide" onclick="replace_divide()">/</button>
+    </div>
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
