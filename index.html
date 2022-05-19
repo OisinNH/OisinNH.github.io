@@ -1,60 +1,144 @@
-<!Doctype HTML>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="index_favicon.png" />
     <script type="text/javascript" src="quiz.js"></script>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Oisin's Website</title>
+    <link rel="stylesheet" href="ifcss.css" />
+  </head>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <title> Oisin's Website </title>
-    <link rel="stylesheet" href="ifcss.css">
-
-</head>
-
-<body>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 text-xs-left">
-                <h2> About Me </h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia lacus vel odio dictum volutpat. Donec eu mauris quis tortor sagittis maximus a vel sapien. Integer eleifend suscipit felis in mollis. Duis commodo in lorem vitae pharetra. Nullam imperdiet dui turpis, ac convallis nisl semper in. Quisque sit amet sodales lacus. Donec porttitor viverra imperdiet. Pellentesque quis ex orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut eu egestas metus, sit amet tempor mauris. Nam vulputate est sit amet lorem maximus, eget bibendum lacus ultrices. Proin accumsan porta erat, at interdum sapien viverra ac. Sed non purus consequat nulla pulvinar accumsan nec sit amet enim.
-
-Ut at neque elementum, viverra elit at, fringilla orci. Suspendisse dictum eget lorem sit amet ultricies. Sed sed libero lorem. Nulla consequat facilisis turpis, a feugiat ipsum porttitor non. Vestibulum porta tellus eget iaculis varius. Quisque posuere dolor nisl, non pellentesque risus sodales ac. Sed eleifend tincidunt cursus. Maecenas ex magna, tempor eu urna a, feugiat faucibus erat. Ut molestie elit justo, tristique laoreet ligula consectetur et. In pellentesque luctus neque, quis lobortis sapien euismod et. Nulla bibendum eros consectetur aliquam commodo.
-
-Integer mollis turpis ligula, sit amet vulputate lorem ullamcorper in. Suspendisse tristique lacus sit amet cursus finibus. Mauris dapibus erat ut ultricies vehicula. Nam ut ipsum iaculis, viverra ipsum non, aliquam ex. Nulla facilisi. Donec vitae erat diam. Maecenas quis diam elementum, pharetra nisi vel, sagittis est. Quisque quis elit sollicitudin, luctus arcu eget, cursus purus. Pellentesque rutrum eu massa sed tempus. Donec sed dui suscipit, facilisis eros ut, elementum neque. Nunc condimentum, velit et lacinia interdum, sapien turpis luctus felis, ut finibus nisi lectus non metus.
-
-Integer id ipsum et mauris varius convallis. Nulla facilisi. Suspendisse a est non eros posuere hendrerit. Suspendisse nec volutpat erat. Mauris pulvinar mauris id orci suscipit pulvinar. Ut tincidunt ligula rutrum libero placerat luctus. Maecenas ultrices ante a mi ullamcorper, ac mollis quam sagittis. Fusce id viverra nulla. Cras facilisis ornare massa, elementum placerat ipsum facilisis nec.
-
-Vestibulum volutpat, lorem sed egestas molestie, est nibh fringilla nisl, et ultrices urna nisi sed arcu. Nulla scelerisque elit sit amet velit lobortis facilisis. Nulla elementum ac erat ac ornare. Aliquam ullamcorper lectus sit amet varius suscipit. Quisque nisl ex, congue commodo maximus eget, fermentum ut sem. Sed sem nisi, commodo porttitor tincidunt ac, egestas eu purus. Aenean vitae elit vitae justo auctor auctor vitae vitae mi. Quisque et fringilla felis. Sed eleifend at risus nec feugiat. Aliquam condimentum libero sit amet justo rhoncus porta. Nunc augue leo, consequat a sem sed, eleifend porttitor tortor. Suspendisse quis feugiat nunc.
-            </div>
-            <div class="col-md-4 text-xs-left">
-                <h2>Links:</h2>
-                <ul>
-                    <li><a href=poem.html>Poem</a></li>
-                    <li><a href=quiz.html>Quiz</a></li>
-                    <li><a href=project.html>A-Level Project</a></li>
-                    <li><a href=eiffel-tower.html>Eiffel Tower Website</a></li>
-                    <li><a href=calculator.html>Calculator</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4 text-xs-left">
-                <h2>Downloads:</h2><a href=FirstPygameProject.zip> My First Pygame Project</a>
-            </div>
+  <body>
+    <nav
+      class="navbar sticky-top navbar-light"
+      style="background-color: #ebbd91"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.oisin.uk/index.html"
+          ><b>oisin.uk</b></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Social Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Eiffel Tower Website</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <div id="carouselImages" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselImages"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselImages"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselImages"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselImages"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./carousel/Pic1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./carousel/Pic2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./carousel/Pic3.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./carousel/Pic4.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselImages"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselImages"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-</body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 text-xs-left">
+          <h2>About Me</h2>
+          Name: Oisin <br />I am stydying Computer Science in school and
+          Practicing HTML, Javascript, CSS, and Python, building this website as
+          an example.
+        </div>
 
+        <div class="col-md-4 text-xs-left">
+          <h2>Downloads:</h2>
+          <a href="FirstPygameProject.zip"> My First Pygame Project</a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

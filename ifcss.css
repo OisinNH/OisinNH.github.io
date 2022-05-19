@@ -1,9 +1,16 @@
 html body{
-	background-color: rgba(235,189,145, 1.00);
-
+	background-color: rgb(233, 210, 190);
+}
 html {
   height: 100%;
 }
 body {
   min-height: 100%;
+}
+
+.carousel {
+    height: 1%;
+    margin-top: 10 auto;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
 }
