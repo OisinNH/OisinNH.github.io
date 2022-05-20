@@ -7,10 +7,3 @@ html {
 body {
   min-height: 100%;
 }
-
-.carousel {
-    height: 1%;
-    margin-top: 10 auto;
-    border-radius: 5px 5px 5px 5px;
-    overflow: hidden;
-}

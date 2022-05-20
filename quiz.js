@@ -188,3 +188,15 @@ function button_project_2() {
 function button_project_3() {
   window.open("./FirstPygameProject.zip", "_0");
 }
+function button_poem() {
+    window.open("./poem.html", "_self");
+  }
+function button_quiz() {
+    window.open("./quiz.html", "_self");
+  }
+function button_calc() {
+    window.open("./calculator.html", "_self");
+  }
+  function button_eiffel() {
+    window.open("./eiffel-tower.html", "_self");
+  }

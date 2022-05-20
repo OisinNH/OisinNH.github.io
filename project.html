@@ -3,15 +3,16 @@
 
 <head>
 
-    <link rel="stylesheet" href="ifcss.css">
-    <link rel="icon" type="image/ico" href="index_favicon.ico" />
-    <script type="text/javascript" src="quiz.js"></script>
+    <link rel="stylesheet" href="./ifcss.css">
+    <link rel="icon" type="image/ico" href="./index_favicon.ico" />
+    <script type="text/javascript" src="./quiz.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel = "stylesheet">
     <title> Projects </title>
 </head>
 
@@ -41,13 +42,11 @@
         </div>
       </nav>
     <div class="container-fluid">
+
         <div class="row">
-            <div class="col-md-12 text-center p-sm-5 overflow-auto">
-                <h1> External Programs </h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-left">
+          <div class="col-sm-2"></div>
+            <div class="col-md-4 text-left">
+              <h1 class="m-1"> External Programs </h1>
                 <div class="accordion" id="externalProgAccordion">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="ExternalProg1">
@@ -58,23 +57,20 @@
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="ExternalProg1" data-bs-parent="#externalProgAccordion">
                         <div class="accordion-body">
                         <div class="row">
-                            <div class = col-md-3 text-left>
+                            <div class = "clearfix">
                                 <img src = "./project.png" alt = "Project" style = "width:100%;"></img>
-                            </div>
-                            <div class = col-md-9 text-left>
                                 <p>
                                     This is a Python project that I created for my A-Level. It is a simple "rougelike" (but not really) which would be somewhat fun if it were not programmed entirely in pygame and had significantly fewer features than one would want in any sort of game alpha, let alone a full release. You can download it and try it if you want to (for some reason) as it is hosted on Github.
                                 </p>
-                                <button type="button" class="btn btn-outline-dark btn-sm" onclick="button_project_2()">Github Page</button>
-                                <button type="button" class="btn btn-outline-dark btn-sm" onclick="button_project_1()">Download (main.py)</button>
-                                <button type="button" class="btn btn-outline-dark btn-sm" onclick="button_project_0()">Download (pycharm file)</button>
+                                <button type="button" class="btn btn-outline-dark btn-sm m-1" onclick="button_project_2()">Github Page</button>
+                                <button type="button" class="btn btn-outline-dark btn-sm m-1" onclick="button_project_1()">Download (main.py)</button>
+                                <button type="button" class="btn btn-outline-dark btn-sm m-1" onclick="button_project_0()">Download (pycharm file)</button>
 
                                 </div>    
                            </div>
                         </div>
                         </div>
                       </div>
-                    </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="ExternalProg2">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -83,30 +79,112 @@
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="ExternalProg2" data-bs-parent="#externalProgAccordion">
                         <div class="accordion-body">
+                            <div class="row">
+                                <div class="clearfix">
+                                    <img src = "./firstProject.png" alt="An image of my first project running" style = "width:100%;"></img>
                           <p>This is an even worse program in Python which shares aspects with my A-Level project (besides being badly written) However, there are several improvements with the latter so I at least did improve my python skills somewhat during the process. At this point, however, I cannot remember much else about this particular project and don't want to download it right now to test it.</p>
                           <button type="button" class="btn btn-outline-dark btn-sm" onclick="button_project_3()">Download</button>
-
+                                </div>
+                                </div>
                         </div>
                       </div>
                     </div>
                       </div>
                     </div>
+                    <div class="col-md-4 text-left">
+                      <h1 class="m-1"> Webpages </h1>
+                         <div class="accordion" id="webpageAccordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="webpage1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePageOne" aria-expanded="true" aria-controls="collapsePageOne">
+                          Poem (If)
+                        </button>
+                      </h2>
+                      <div id="collapsePageOne" class="accordion-collapse collapse" aria-labelledby="webpage1" data-bs-parent="#webpageAccordion">
+                        <div class="accordion-body">
+                        <div class="row">
+                            <div class = "clearfix">
+                                <p>
+                                    We were tasked to create this at the end of Year 11, and the first poem which came to mind was If, as we had looked at it last in our English IGCSE course (I think). The page is literally just the poem and a picture of Rudyard Kipling.
+                                </p>
+                                <button type="button" class="btn btn-outline-dark btn-sm m-1" onclick="button_poem">Link</button>
+                                </div>    
+                           </div>
+                        </div>
+                        </div>
+                      </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="webpage2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePageTwo" aria-expanded="false" aria-controls="collapsePageTwo">
+                          Quiz
+                        </button>
+                      </h2>
+                      <div id="collapsePageTwo" class="accordion-collapse collapse" aria-labelledby="webpage2" data-bs-parent="#webpageAccordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="clearfix">
+                                    <p>Making a quiz was another thing we had to do in our "Comp. Sci. A-Level preparation", so I made one where one has to name countries based on their outline. It gets very difficult toward the end but the javascript is publicly-viewable (obviously) so technically you could just find out the answers from that. However that would be cheating and you should feel bad if you do that.</p>
+                          <button type="button" class="btn btn-outline-dark btn-sm" onclick="button_quiz()"><b>Link</b></button>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
                   </div>
-                        
-                
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="webpage3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePageThree" aria-expanded="false" aria-controls="collapsePageThree">
+                          Calculator
+                        </button>
+                        </h2>
+                        <div id="collapsePageThree" class="accordion-collapse collapse" aria-labelledby="webpage3" data-bs-parent="#webpageAccordion">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="clearfix">
+                                        <p>
+                                            This is a calculator which I made because we were told to do so in one of my A-Level lessons. It is a very simple calculator which can do basic arithmetic, and uses Javascript.
+                                        </p>
+                                        <button type="button" class="btn btn-outline-dark btn-sm m-1" onclick="button_calc()">Link</button>
+                                        </div>    
+                                   </div>
+                                </div>
+                            </div>
+                  </div>
+                  <div class="accordion-item">
+                        <h2 class="accordion-header" id="webpage4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePageFour" aria-expanded="false" aria-controls="collapsePageFour">
+                            Eiffel Tower Website
+                            </button>
+                            </h2>
+                            <div id="collapsePageFour" class="accordion-collapse collapse" aria-labelledby="webpage4" data-bs-parent="#webpageAccordion">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="clearfix">
+                                            <p>
+                                                This is a link to what is basically another website. I can't remember exactly when but, as part of learning HTML, CSS, and Javascript sometime in Year 12, our teacher told us to make the website which is on the other side of the link below. At the time, however, I was not using bootstrap (or any framework at all) so it not only looks terrible but has bad formatting on anything which is not a PC or laptop. There is also autoplaying music in the background of the index page (which will probably be blocked by your browser anyway) so have fun.
+                                            </p>
+                                            <button type="button" class="btn btn-outline-dark btn-sm m-1" onclick="button_eiffel()">Link</button>
+                                            </div>    
+                                     </div>
+                                    </div>
+                                </div>
+                  </div>
             </div>
-        </div>
-        <div class="col-md-4 text-xs-left">
-            <h2>Links:</h2>
-            <ul>
-                <li><a href=poem.html>Poem</a></li>
-                <li><a href=quiz.html>Quiz</a></li>
-                <li><a href=project.html>A-Level Project</a></li>
-                <li><a href=eiffel-tower.html>Eiffel Tower Website</a></li>
-                <li><a href=calculator.html>Calculator</a></li>
-            </ul>
-        </div>
     </div>
+    <div class="col-sm-2"></div>
+    </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-left py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-cleft">
+            <span class="text-muted">© 2022 Oisin Hetherington</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i></button>
+            <button type="button" class="btn btn-social-icon btn-instagram btn-rounded"><i class="fa fa-instagram"></i></button>
+          </ul>
+        </footer>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
