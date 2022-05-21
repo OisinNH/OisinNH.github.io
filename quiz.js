@@ -200,3 +200,9 @@ function button_calc() {
   function button_eiffel() {
     window.open("./eiffel-tower.html", "_self");
   }
+  function button_twitter() {
+    window.open("https://twitter.com/OisinNH", "_blank");
+  }
+  function button_instagram() {
+    window.open("https://www.instagram.com/oisinnh/", "_blank");
+  }
